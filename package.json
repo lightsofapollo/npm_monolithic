@@ -1,0 +1,25 @@
+{
+  "name": "npm_monolithic",
+  "version": "1.0.0",
+  "description": "Example of monolithic project with multiple packages in a single repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "./linkify.sh"
+  },
+  "dependencies": {
+    "package_a": "file:./package_a",
+    "package_b": "file:./package_b",
+    "underscore": "^1.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lightsofapollo/npm_monolithic.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lightsofapollo/npm_monolithic/issues"
+  },
+  "homepage": "https://github.com/lightsofapollo/npm_monolithic"
+}
