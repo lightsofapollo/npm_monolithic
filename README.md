@@ -31,9 +31,9 @@ breaks those basic assumptions but this still can work via:
   - hash each package.json in the sub packages
   - hash looks like:
 
-    > md5 package.json
-    > md5 sub1/package.json
-    > md5 sub2/package.json
+    - md5 package.json
+    - md5 sub1/package.json
+    - md5 sub2/package.json
 
   - upload globally installed packages (the sum of all sub dependencies)
 
